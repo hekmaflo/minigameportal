@@ -5,6 +5,7 @@ h1 {
   font-family: monospace;
   text-transform: uppercase;
   font-style: italic;
+  display: inline;
 }
 
 .main {
@@ -15,7 +16,10 @@ h1 {
 
 .squares {
   background-color: rgb(0, 2, 43);
-  margin: 3px;
+  margin: 10px;
+  outline: 2px solid aliceblue;
+  width: 30%;
+  height: 30%;
 }
 .squares:hover {
   opacity: 50%;
@@ -88,4 +92,13 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
 }
